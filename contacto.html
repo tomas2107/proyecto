@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="/iconos/hat.png">
+    <script type="text/javascript">
+
+        function validar() {
+
+            if (form.nombre.value == 0) {
+                alert("El campo nombre esta vacio");
+                form.nombre.value = "";
+                form.nombre.focus();
+                event.preventdefult();
+                return false;
+
+            }
+            if (form.mail.value == 0) {
+                alert("El campo mail esta vacio");
+                form.mail.value = "";
+                form.mail.focus();
+                event.preventdefult();
+                return false;
+            }
+            if (form.pais.value == 0) {
+                alert("El campo pais esta vacio");
+                form.pais.value = "";
+                form.pais.focus();
+                event.preventdefult();
+                return false;
+            }
+
+        }
+
+    </script>
+    <title>Contactanos</title>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html" class="logo-nav">
+            <img src="/imagenes/logo.png" alt="LogoDeAsiaEnCasa">
+        </a>
+        <div>
+            <ul id="navbar" class="navbar">
+                <li><a href="/index.html">inicio</a></li>
+                <li><a href="/productos.html">Productos</a></li>
+                <li><a href="/corea.html">Corea </a></li>
+                <li><a href="/china.html">China </a></li>
+                <li><a href="/japon.html">Japon </a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="bloque-superior" id="bloque-superior-contacto">
+            <div class="contenedor-superior">
+                <h1 class="titulo">Contactanos</h1>
+                <p class="subtitulo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque nulla placeat
+                    necessitatibus asperiores vitae vel voluptates optio obcaecati ratione nemo quisquam adipisci,
+                    ducimus ipsum autem iste, ut veritatis ab ipsa?</p>
+            </div>
+        </section>
+
+        <section class="bloque-form">
+            <div class="contenedor-form">
+                <h2>Contacto</h2>
+                <form action="https://formspree.io/f/xgvywgag" method="post">
+                    <label for="nombre">Nombre completo</label>
+                    <input name="Nombre" id="nombre" type="text" required>
+
+                    <label for="direccion">Dirección</label>
+                    <input name="Direccion" id="direccion" type="text" required>
+
+                    <label for="email">Correo electrónico</label>
+                    <input name="Email" id="email" type="email" required>
+
+                    <label for="mensaje">Tu mensaje:</label>
+                    <textarea name="mensaje:"></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13140.71064316727!2d-58.45212950256928!3d-34.57437093653029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5dcc893beb1%3A0x7199b7a323e735a8!2sC%C3%A9spedes%203021%2C%20C1426DVC%20CABA!5e0!3m2!1ses-419!2sar!4v1635515594494!5m2!1ses-419!2sar"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="logo-footer">
+                <img src="/imagenes/logo.png" alt="LogoDeAsiaEnCasa">
+                <p class="p-footer">Llevamos Asia a donde quieras que estés</p>
+            </div>
+            <div class="redessociales">
+                <a href="https://www.instagram.com/?hl=es" class="icono-red">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="#" class="icono-red">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
