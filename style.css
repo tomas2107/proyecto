@@ -1,3 +1,4 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +12,10 @@ a {
 body {
     line-height: 1.5;
     color: #222;
+    font-family: sans-serif;
 }
 
+/* HEADER */
 header {
     background-color: #a00;
     padding: 24px 32px;
@@ -36,13 +39,13 @@ header {
 }
 
 .navbar li a {
-    text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 24px;
     letter-spacing: 1px;
 }
 
+/* BLOQUE SUPERIOR */
 .bloque-superior {
     background-size: cover;
     background-position: center;
@@ -59,45 +62,41 @@ header {
 #bloque-superior-index {
     background-image: url(/imagenes/asia.jpg);
 }
-
 #bloque-superior-china {
     background-image: url(/imagenes/muralla-china.jpg);
 }
-
 #bloque-superior-corea {
     background-image: url(/imagenes/south-korea.jpg);
 }
-
 #bloque-superior-japon {
     background-image: url(/imagenes/monte-fuji.jpg);
 }
-
 #bloque-superior-contacto {
     background-image: url(/imagenes/food-delivery-green-poster-oi97lp6ogs4prjzx.jpg);
 }
-
 #bloque-superior-productos {
     background-image: url(/imagenes/snacks/SNACKS-ASIATICOS.webp);
 }
 
 .contenedor-superior {
-    background-color: rgba(0, 0, 0, 0.619);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 48px;
     border-radius: 10px;
     max-width: 900px;
 }
 
 .titulo {
-    font-size: 5.5rem;
+    font-size: 56px;
     margin-bottom: 24px;
     line-height: 1.2;
     font-weight: bold;
 }
 
 .subtitulo {
-    font-size: 2.8rem;
+    font-size: 32px;
 }
 
+/* BLOQUE MEDIO */
 .bloque-medio {
     background-color: white;
     padding: 96px 32px;
@@ -119,11 +118,11 @@ header {
 }
 
 .contenedor-mas-info h2 {
-    font-size: 75px;
+    font-size: 48px;
 }
 
 .contenedor-mas-info p {
-    font-size: 42px;
+    font-size: 24px;
 }
 
 .contenedor-productos {
@@ -136,6 +135,7 @@ header {
     border-radius: 8px;
 }
 
+/* PAISES */
 .paises {
     display: flex;
     justify-content: space-around;
@@ -159,10 +159,11 @@ header {
 
 .titulo-paises {
     text-align: center;
-    font-size: 2rem;
+    font-size: 24px;
     margin-bottom: 32px;
 }
 
+/* FOOTER */
 footer {
     background-color: #a00;
     color: white;
@@ -175,8 +176,8 @@ footer {
 }
 
 .contenedor-footer {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     width: 100%;
     display: flex;
     justify-content: baseline;
@@ -191,27 +192,24 @@ footer {
 }
 
 .logo-footer img {
-    display: flex;
-    text-align: center;
-    align-items: center;
     height: 60px;
     margin-bottom: 8px;
 }
 
 .p-footer {
     margin: 0;
-    font-size: 2rem;
+    font-size: 24px;
 }
 
 .redessociales a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 20px;
     margin-left: 16px;
 }
 
+/* FORMULARIO */
 .bloque-form {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -222,27 +220,25 @@ footer {
 
 .contenedor-form {
     flex: 1 1 350px;
-    align-items: center;
-    justify-content: center;
     width: 50%;
     background-color: #fff;
     padding: 32px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    font-size: 2.5rem;
+    font-size: 20px;
 }
 
 .form-container h2 {
     text-align: center;
     margin-bottom: 24px;
-    font-size: 3rem;
+    font-size: 36px;
     color: #a00;
 }
 
 form label {
     margin-top: 16px;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 20px;
     display: block;
     color: #333;
 }
@@ -254,7 +250,7 @@ textarea {
     margin-top: 4px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 form button {
@@ -263,7 +259,7 @@ form button {
     border: none;
     background-color: #a00;
     color: white;
-    font-size: 1.1rem;
+    font-size: 18px;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -281,6 +277,7 @@ form button:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+/* PRODUCTOS */
 .bloque-productos {
     text-align: center;
     display: flex;
@@ -314,7 +311,6 @@ form button:hover {
 .descripcion-producto {
     text-align: center;
     margin-bottom: 10px;
-    border-top: #121312;
 }
 
 .descripcion-producto span {
@@ -324,7 +320,7 @@ form button:hover {
 
 .descripcion-producto h4 {
     margin: 8px 0;
-    font-size: 1.2rem;
+    font-size: 18px;
 }
 
 .descripcion-producto h3 {
@@ -335,9 +331,9 @@ form button:hover {
     background-color: #a00;
     color: white;
     border: none;
-    padding: 8px 19.2px;
+    padding: 8px 20px;
     border-radius: 8px;
-    font-size: 1rem;
+    font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -347,10 +343,10 @@ form button:hover {
 }
 
 .mas-informacion p {
-    font-size: 2rem;
+    font-size: 20px;
 }
 
-/* ===== RESPONSIVE ===== */
+/* RESPONSIVE */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -370,15 +366,15 @@ form button:hover {
     }
 
     .navbar li a {
-        font-size: 1.2rem;
+        font-size: 18px;
     }
 
     .titulo {
-        font-size: 3rem;
+        font-size: 32px;
     }
 
     .subtitulo {
-        font-size: 1.5rem;
+        font-size: 20px;
     }
 
     .bloque-medio {
@@ -388,11 +384,11 @@ form button:hover {
     }
 
     .contenedor-mas-info h2 {
-        font-size: 2.5rem;
+        font-size: 28px;
     }
 
     .contenedor-mas-info p {
-        font-size: 1.5rem;
+        font-size: 18px;
     }
 
     .contenedor-form,
