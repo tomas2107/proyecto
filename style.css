@@ -57,22 +57,22 @@ header {
 }
 
 #bloque-superior-index {
-    background-image: url(/imagenes/asia.jpg);
+    background-image: url(imagenes/asia.jpg);
 }
 #bloque-superior-china {
-    background-image: url(/imagenes/muralla-china.jpg);
+    background-image: url(imagenes/muralla-china.jpg);
 }
 #bloque-superior-corea {
-    background-image: url(/imagenes/south-korea.jpg);
+    background-image: url(imagenes/south-korea.jpg);
 }
 #bloque-superior-japon {
-    background-image: url(/imagenes/monte-fuji.jpg);
+    background-image: url(imagenes/monte-fuji.jpg);
 }
 #bloque-superior-contacto {
-    background-image: url(/imagenes/food-delivery-green-poster-oi97lp6ogs4prjzx.jpg);
+    background-image: url(imagenes/food-delivery-green-poster-oi97lp6ogs4prjzx.jpg);
 }
 #bloque-superior-productos {
-    background-image: url(/imagenes/snacks/SNACKS-ASIATICOS.webp);
+    background-image: url(imagenes/snacks/SNACKS-ASIATICOS.webp);
 }
 
 .contenedor-superior {
