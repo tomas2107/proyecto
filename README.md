@@ -11,3 +11,5 @@ Elegí hacer una pagina de E-commerce sobre snacks asiaticos ,especificamente sn
 - productos: Que muestra todos los snacks
 
 A futuro me gustaria agregarle a la pagina deproductos la posibilidad de que pueda filtrar productos por paises y otras caracteristicas. Por ejemplo : salados,dulces,chocolates,etc.
+
+Es una pagina inventada así que no puse ni precios ni info del producto ,use terminos generales como precio ,esto es un snack etc. y use lorem ipsum donde creí que necesitaba un parrafo.
