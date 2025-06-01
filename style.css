@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: #a00;
-    padding: 1.5rem 3rem;
+    padding: 24px 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,13 +26,13 @@ header {
 }
 
 .logo-nav img {
-    height: 120px;
+    height: 60px;
 }
 
 .navbar {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .navbar li a {
@@ -52,7 +52,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding: 32px;
     color: white;
 }
 
@@ -75,20 +75,21 @@ header {
 #bloque-superior-contacto {
     background-image: url(/imagenes/food-delivery-green-poster-oi97lp6ogs4prjzx.jpg);
 }
-#bloque-superior-productos{
+
+#bloque-superior-productos {
     background-image: url(/imagenes/snacks/SNACKS-ASIATICOS.webp);
 }
 
 .contenedor-superior {
     background-color: rgba(0, 0, 0, 0.619);
-    padding: 3rem;
+    padding: 48px;
     border-radius: 10px;
     max-width: 900px;
 }
 
 .titulo {
     font-size: 5.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
     line-height: 1.2;
     font-weight: bold;
 }
@@ -99,23 +100,22 @@ header {
 
 .bloque-medio {
     background-color: white;
-    padding: 6rem 2rem;
-    margin-top: -6rem;
+    padding: 96px 32px;
+    margin-top: -96px;
     position: relative;
     z-index: 2;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 48px;
     flex-wrap: nowrap;
-    /* evita que se rompa la línea */
 }
 
 .contenedor-mas-info {
     flex: 0 0 40%;
     text-align: center;
-    padding-right: 2rem;
+    padding-right: 32px;
 }
 
 .contenedor-mas-info h2 {
@@ -140,9 +140,9 @@ header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 3rem;
-    margin-top: 2rem;
-    padding: 0 3rem;
+    gap: 48px;
+    margin-top: 32px;
+    padding: 0 48px;
 }
 
 .contenedor-paises {
@@ -160,13 +160,13 @@ header {
 .titulo-paises {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 footer {
     background-color: #a00;
     color: white;
-    padding: 2rem;
+    padding: 32px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -194,8 +194,8 @@ footer {
     display: flex;
     text-align: center;
     align-items: center;
-    height: 100px;
-    margin-bottom: 0.5rem;
+    height: 60px;
+    margin-bottom: 8px;
 }
 
 .p-footer {
@@ -206,7 +206,7 @@ footer {
 .redessociales a {
     color: white;
     font-size: 1.5rem;
-    margin-left: 1rem;
+    margin-left: 16px;
 }
 
 .bloque-form {
@@ -215,9 +215,8 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    padding: 4rem 2rem;
+    gap: 48px;
+    padding: 64px 32px;
     background-color: #f9f9f9;
 }
 
@@ -227,7 +226,7 @@ footer {
     justify-content: center;
     width: 50%;
     background-color: #fff;
-    padding: 2rem;
+    padding: 32px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     font-size: 2.5rem;
@@ -235,13 +234,13 @@ footer {
 
 .form-container h2 {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
     font-size: 3rem;
     color: #a00;
 }
 
 form label {
-    margin-top: 1rem;
+    margin-top: 16px;
     font-weight: bold;
     font-size: 2rem;
     display: block;
@@ -251,16 +250,16 @@ form label {
 form input,
 textarea {
     width: 100%;
-    padding: 0.75rem;
-    margin-top: 0.25rem;
+    padding: 12px;
+    margin-top: 4px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 1rem;
 }
 
 form button {
-    margin-top: 1.5rem;
-    padding: 0.75rem;
+    margin-top: 24px;
+    padding: 12px;
     border: none;
     background-color: #a00;
     color: white;
@@ -286,9 +285,9 @@ form button:hover {
     text-align: center;
     display: flex;
     justify-content: space-around;
-    padding: 2rem 3rem;
+    padding: 32px 48px;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .producto {
@@ -324,7 +323,7 @@ form button:hover {
 }
 
 .descripcion-producto h4 {
-    margin: 0.5rem 0;
+    margin: 8px 0;
     font-size: 1.2rem;
 }
 
@@ -336,7 +335,7 @@ form button:hover {
     background-color: #a00;
     color: white;
     border: none;
-    padding: 0.5rem 1.2rem;
+    padding: 8px 19.2px;
     border-radius: 8px;
     font-size: 1rem;
     cursor: pointer;
@@ -346,16 +345,18 @@ form button:hover {
 .producto button:hover {
     background-color: #800;
 }
+
 .mas-informacion p {
     font-size: 2rem;
 }
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
         position: static;
         align-items: center;
-        padding: 1rem;
+        padding: 16px;
     }
 
     .logo-nav img {
@@ -364,8 +365,8 @@ form button:hover {
 
     .navbar {
         flex-direction: column;
-        gap: 0.5rem;
-        padding-top: 1rem;
+        gap: 8px;
+        padding-top: 16px;
     }
 
     .navbar li a {
@@ -382,7 +383,7 @@ form button:hover {
 
     .bloque-medio {
         flex-direction: column;
-        padding: 4rem 1.5rem;
+        padding: 64px 24px;
         height: auto;
     }
 
